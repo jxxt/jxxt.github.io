@@ -51,9 +51,17 @@ body {
     width: 70%;
     height: 90px;
     display: flex;
+    display: flex;
+    flex-direction: column;
+    font-size: 400%;
 }
 
-.title {
+.secondbar .title {
+    margin-top: 30px;
+    margin-left: 15%;
+    width: 70%;
+    height: 90px;
+    display: flex;
     display: flex;
     flex-direction: column;
     font-size: 300%;
@@ -97,11 +105,51 @@ a {
     margin-top: 80px;
 }
 
+.techs {
+    width: 70%;
+    margin-left: 15%;
+    font-size: 270%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-shadow: 0 0 1em chartreuse, 0 0 0.1em chartreuse;
+}
 
+.hr3 {
+    margin-left: 15%;
+    margin-bottom: auto;
+    margin-top: -10px;
+    width: 70%;
+    border-bottom: 2px white solid;
+    padding-bottom: 50px;
+}
 
+.proj {
+    width: 70%;
+    margin-left: 15%;
+    font-size: 270%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-shadow: 0 0 1em chartreuse, 0 0 0.1em chartreuse;
+}
 
+.proj div {
+    margin-bottom: 40px;
+}
 
+.proj a {
+    text-decoration: underline solid chartreuse 2px;
+}
 
+.hr4 {
+    margin-left: 15%;
+    margin-bottom: auto;
+    margin-top: -50px;
+    width: 70%;
+    border-bottom: 2px white solid;
+    padding-bottom: 50px;
+}
 
 
 
