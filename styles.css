@@ -353,14 +353,14 @@ span {
     height: 70px;
   }
   .secondbar .title {
-    font-size: 200%;
+    font-size: 180%;
     margin-top: 0px;
   }
   #jeet {
-    font-size: 130%;
+    font-size: 120%;
   }
   .hr2 {
-    margin-top: 100px;
+    margin-top: 90px;
     margin-bottom: 40px;
   }
   .techstack ._title {
@@ -377,9 +377,9 @@ span {
     font-size: 80%;
   }
   .hr4 {
-    margin-top: -40px;
+    margin-top: -50px;
   }
   .bottombar {
-    font-size: 110%;
+    font-size: 100%;
   }
 }/*# sourceMappingURL=styles.css.map */
