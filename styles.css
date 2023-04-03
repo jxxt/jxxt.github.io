@@ -238,7 +238,7 @@ span {
     width: 60%;
   }
   .proj {
-    width: 80%;
+    width: 60%;
     margin-left: 20%;
   }
   .hr4 {
@@ -248,5 +248,95 @@ span {
   .bottombar {
     width: 60%;
     margin-left: 20%;
+  }
+}
+@media (max-width: 75rem) {
+  .topbar {
+    margin-left: 15%;
+    width: 70%;
+  }
+  .hr1 {
+    margin-left: 15%;
+    width: 70%;
+  }
+  .title {
+    margin-left: 15%;
+    width: 70%;
+  }
+  ._title {
+    margin-left: 15%;
+    width: 70%;
+  }
+  .secondbar .title {
+    margin-left: 15%;
+    width: 70%;
+  }
+  .hr2 {
+    margin-left: 15%;
+    width: 70%;
+  }
+  .techs {
+    margin-left: 15%;
+  }
+  .hr3 {
+    margin-left: 15%;
+    width: 70%;
+  }
+  .proj {
+    width: 70%;
+    margin-left: 15%;
+  }
+  .hr4 {
+    margin-left: 15%;
+    width: 70%;
+  }
+  .bottombar {
+    width: 70%;
+    margin-left: 15%;
+  }
+}
+@media (max-width: 65rem) {
+  .topbar {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .hr1 {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .title {
+    margin-left: 10%;
+    width: 80%;
+  }
+  ._title {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .secondbar .title {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .hr2 {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .techs {
+    margin-left: 10%;
+  }
+  .hr3 {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .proj {
+    width: 80%;
+    margin-left: 10%;
+  }
+  .hr4 {
+    margin-left: 10%;
+    width: 80%;
+  }
+  .bottombar {
+    width: 80%;
+    margin-left: 10%;
   }
 }/*# sourceMappingURL=styles.css.map */
