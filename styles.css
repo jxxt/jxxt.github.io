@@ -364,7 +364,7 @@ span {
     margin-bottom: 40px;
   }
   .techstack ._title {
-    font-size: 270%;
+    font-size: 220%;
   }
   .techs {
     font-size: 150%;
@@ -374,12 +374,12 @@ span {
     margin-bottom: 40px;
   }
   .projects {
-    font-size: 80%;
+    font-size: 70%;
   }
   .hr4 {
     margin-top: -50px;
   }
   .bottombar {
-    font-size: 110%;
+    font-size: 120%;
   }
 }/*# sourceMappingURL=styles.css.map */
