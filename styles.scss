@@ -259,6 +259,7 @@ span {
 
     .techs {
         margin-left: $left_margin_2;
+        width: $width_2;
     }
 
     .hr3 {
@@ -315,6 +316,7 @@ span {
 
     .techs {
         margin-left: $left_margin_3;
+        width: $width_3;
     }
 
     .hr3 {
@@ -371,6 +373,7 @@ span {
 
     .techs {
         margin-left: $left_margin_4;
+        width: $width_4;
     }
 
     .hr3 {
@@ -394,4 +397,44 @@ span {
     }
 }
 
-@media (max-width: 55rem) {}
+@media (max-width: 55rem) {
+    .topbar {
+        font-size: 80%;
+        height: 70px;
+    }
+
+    .secondbar .title {
+        font-size: 200%;
+        margin-top: 0px;
+    }
+
+    #jeet {
+        font-size: 150%;
+    }
+
+    .hr2 {
+        margin-top: 110px;
+        margin-bottom: 40px;
+    }
+
+    .techstack ._title {
+        font-size: 270%;
+    }
+
+    .techs {
+        font-size: 150%;
+    }
+
+    .hr3 {
+        margin-top: 0px;
+        margin-bottom: 40px;
+    }
+
+    .projects {
+        font-size: 80%;
+    }
+
+    .hr4 {
+        margin-top: -40px;
+    }
+}
