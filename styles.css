@@ -1,295 +1,252 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: 'Ubuntu Mono', monospace;
-    color: chartreuse;
+  margin: 0;
+  padding: 0;
+  font-family: "Ubuntu Mono", monospace;
+  color: chartreuse;
 }
 
 body {
-    background: #000;
-    color: #fff;
+  background: #000;
+  color: #fff;
 }
 
 .topbar {
-    margin-left: 25%;
-    width: 50%;
-    height: 75px;
-    display: flex;
-    justify-content: space-between;
+  margin-left: 25%;
+  width: 50%;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .name {
-    height: 50px;
-    line-height: 70px;
-    text-align: center;
-    font-size: 140%;
-    font-family: 'Ubuntu Mono', monospace;
-    color: chartreuse;
-    text-shadow: 0 0 1em chartreuse, 0 0 0.2em chartreuse;
+  height: 50px;
+  line-height: 70px;
+  text-align: center;
+  font-size: 140%;
+  font-family: "Ubuntu Mono", monospace;
+  color: chartreuse;
+  text-shadow: 0 0 1em chartreuse, 0 0 0.2em chartreuse;
 }
 
 .end {
-    height: 50px;
-    line-height: 75px;
-    text-align: center;
-    font-size: 140%;
-    font-family: 'Ubuntu Mono', monospace;
-    color: chartreuse;
-    text-shadow: 0 0 1em chartreuse, 0 0 0.2em chartreuse;
+  height: 50px;
+  line-height: 75px;
+  text-align: center;
+  font-size: 140%;
+  font-family: "Ubuntu Mono", monospace;
+  color: chartreuse;
+  text-shadow: 0 0 1em chartreuse, 0 0 0.2em chartreuse;
 }
 
 .hr1 {
-    margin-left: 25%;
-    margin-bottom: auto;
-    width: 50%;
-    border-bottom: 2px white solid;
+  margin-left: 25%;
+  margin-bottom: auto;
+  width: 50%;
+  border-bottom: 2px white solid;
 }
 
 .title {
-    margin-top: 30px;
-    margin-left: 25%;
-    width: 50%;
-    height: 90px;
-    display: flex;
-    display: flex;
-    flex-direction: column;
-    font-size: 400%;
+  margin-top: 30px;
+  margin-left: 25%;
+  width: 50%;
+  height: 90px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  font-size: 400%;
 }
 
 ._title {
-    margin-top: 30px;
-    margin-left: 25%;
-    width: 50%;
-    height: 90px;
-    display: flex;
-    display: flex;
-    flex-direction: column;
-    font-size: 330%;
+  margin-top: 30px;
+  margin-left: 25%;
+  width: 50%;
+  height: 90px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  font-size: 330%;
 }
 
 .secondbar .title {
-    margin-top: 30px;
-    margin-left: 25%;
-    width: 50%;
-    height: 90px;
-    display: flex;
-    display: flex;
-    flex-direction: column;
-    font-size: 300%;
+  margin-top: 30px;
+  margin-left: 25%;
+  width: 50%;
+  height: 90px;
+  display: flex;
+  display: flex;
+  flex-direction: column;
+  font-size: 300%;
 }
 
 .hi {
-    margin-top: 40px;
+  margin-top: 40px;
 }
 
 .this {
-    margin-top: 20px;
+  margin-top: 20px;
 }
 
 #jeet {
-    margin-top: 20px;
-    font-size: 200%;
-    text-shadow: 0 0 1em chartreuse, 0 0 0.1em chartreuse;
+  margin-top: 20px;
+  font-size: 200%;
+  text-shadow: 0 0 1em chartreuse, 0 0 0.2em chartreuse;
 }
 
-
 #jeet span {
-
-
-    animation-duration: 3s;
-    animation-name: blinker;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+  animation-duration: 3s;
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
 }
 
 #blinkkk {
-    animation-duration: 2s;
-    animation-name: blinker;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
+  animation-duration: 2s;
+  animation-name: blinker;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
 }
-
-
-
-
 
 @keyframes blinker {
-    50% {
-        opacity: 0;
-    }
+  50% {
+    opacity: 0;
+  }
 }
-
-
-
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .hr2 {
-    margin-left: 25%;
-    margin-bottom: 70px;
-    margin-top: 230px;
-    width: 50%;
-    border-bottom: 2px white solid;
-    padding-bottom: 50px;
+  margin-left: 25%;
+  margin-bottom: 70px;
+  margin-top: 230px;
+  width: 50%;
+  border-bottom: 2px white solid;
+  padding-bottom: 50px;
 }
 
 .secondbar {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
 
-/* .pp {
-    padding-right: 230px;
-    margin-top: 80px;
-} */
-
 .techs {
-    width: 50%;
-    margin-left: 25%;
-    font-size: 200%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    text-shadow: 0 0 1em chartreuse, 0 0 0.1em chartreuse;
+  width: 50%;
+  margin-left: 25%;
+  font-size: 200%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  text-shadow: 0 0 1em chartreuse, 0 0 0.2em chartreuse;
 }
 
 .hr3 {
-    margin-left: 25%;
-    margin-bottom: 70px;
-    margin-top: 20px;
-    width: 50%;
-    border-bottom: 2px white solid;
-    padding-bottom: 50px;
+  margin-left: 25%;
+  margin-bottom: 70px;
+  margin-top: 20px;
+  width: 50%;
+  border-bottom: 2px white solid;
+  padding-bottom: 50px;
 }
 
 .proj {
-    width: 50%;
-    margin-left: 25%;
-    font-size: 200%;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    text-shadow: 0 0 1em chartreuse, 0 0 0.1em chartreuse;
+  width: 50%;
+  margin-left: 25%;
+  font-size: 200%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-shadow: 0 0 1em chartreuse, 0 0 0.2em chartreuse;
 }
 
 .proj div {
-    margin-bottom: 40px;
+  margin-bottom: 40px;
 }
 
 .proj a {
-    text-decoration: underline solid chartreuse 2px;
+  -webkit-text-decoration: underline solid chartreuse 2px;
+          text-decoration: underline solid chartreuse 2px;
 }
 
 .hr4 {
-    margin-left: 25%;
-    margin-bottom: auto;
-    margin-top: -20px;
-    width: 50%;
-    border-bottom: 2px white solid;
-    padding-bottom: 50px;
+  margin-left: 25%;
+  margin-bottom: auto;
+  margin-top: -20px;
+  width: 50%;
+  border-bottom: 2px white solid;
+  padding-bottom: 50px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
 .bottombar {
-    /* background-color: rgb(29, 35, 35); */
-    width: 50%;
-    height: 50px;
-    line-height: 50px;
-    align-items: center;
-    margin-left: 25%;
-    font-size: 140%;
-    display: inline-flex;
-    justify-content: space-between;
-    filter: drop-shadow(0 0 0.2rem chartreuse);
+  width: 50%;
+  height: 50px;
+  line-height: 50px;
+  align-items: center;
+  margin-left: 25%;
+  font-size: 140%;
+  display: inline-flex;
+  justify-content: space-between;
+  filter: drop-shadow(0 0 0.2rem chartreuse);
 }
 
 span {
-    font-size: 140%;
+  font-size: 140%;
 }
 
 .icons img {
-    vertical-align: middle;
-    height: 100%;
-    width: auto;
-    transform: rotate(deg);
-    transition: transform 1s ease-in;
-
+  vertical-align: middle;
+  height: 100%;
+  width: auto;
+  transform: rotate(deg);
+  transition: transform 1s ease-in;
 }
 
 .icons img:hover {
-    transform: rotate(360deg);
+  transform: rotate(360deg);
 }
 
-
-
-
-
-@media (max-width: 78rem) {
-    .topbar {
-        margin-left: 20%;
-        width: 60%;
-    }
-
-    .hr1 {
-        margin-left: 20%;
-        width: 60%;
-    }
-
-    .title {
-        margin-left: 20%;
-        width: 60%;
-    }
-
-    ._title {
-        margin-left: 20%;
-        width: 60%;
-    }
-
-    .secondbar .title {
-        margin-left: 20%;
-        width: 60%;
-    }
-
-    .hr2 {
-        margin-left: 20%;
-        width: 60%;
-    }
-
-    .techs {
-        margin-left: 20%;
-    }
-
-    .hr3 {
-        margin-left: 20%;
-        width: 60%;
-    }
-
-    .proj {
-        width: 80%;
-        margin-left: 20%;
-    }
-
-    .hr4 {
-        margin-left: 20%;
-        width: 60%;
-    }
-
-    .bottombar {
-        width: 60%;
-        margin-left: 20%;
-    }
-}
+@media (max-width: 95rem) {
+  .topbar {
+    margin-left: 20%;
+    width: 60%;
+  }
+  .hr1 {
+    margin-left: 20%;
+    width: 60%;
+  }
+  .title {
+    margin-left: 20%;
+    width: 60%;
+  }
+  ._title {
+    margin-left: 20%;
+    width: 60%;
+  }
+  .secondbar .title {
+    margin-left: 20%;
+    width: 60%;
+  }
+  .hr2 {
+    margin-left: 20%;
+    width: 60%;
+  }
+  .techs {
+    margin-left: 20%;
+  }
+  .hr3 {
+    margin-left: 20%;
+    width: 60%;
+  }
+  .proj {
+    width: 80%;
+    margin-left: 20%;
+  }
+  .hr4 {
+    margin-left: 20%;
+    width: 60%;
+  }
+  .bottombar {
+    width: 60%;
+    margin-left: 20%;
+  }
+}/*# sourceMappingURL=styles.css.map */
