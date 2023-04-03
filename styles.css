@@ -350,7 +350,10 @@ span {
 @media (max-width: 55rem) {
   .topbar {
     font-size: 80%;
-    height: 70px;
+    height: 50px;
+  }
+  .name, .end {
+    line-height: 50px;
   }
   .secondbar .title {
     font-size: 180%;
