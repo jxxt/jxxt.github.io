@@ -8,6 +8,12 @@ $width_1: 50%;
 $left_margin_2: 20%;
 $width_2: 60%;
 
+$left_margin_3: 15%;
+$width_3: 70%;
+
+$left_margin_4: 10%;
+$width_4: 80%;
+
 
 * {
     margin: 0;
@@ -257,7 +263,7 @@ span {
     }
 
     .proj {
-        width: 80%;
+        width: $width_2;
         margin-left: $left_margin_2;
     }
 
@@ -270,4 +276,120 @@ span {
         width: $width_2;
         margin-left: $left_margin_2;
     }
+}
+
+@media (max-width: 75rem) {
+    .topbar {
+        margin-left: $left_margin_3;
+        width: $width_3;
+    }
+
+    .hr1 {
+        margin-left: $left_margin_3;
+        width: $width_3;
+    }
+
+    .title {
+        margin-left: $left_margin_3;
+        width: $width_3;
+    }
+
+    ._title {
+        margin-left: $left_margin_3;
+        width: $width_3;
+    }
+
+    .secondbar .title {
+        margin-left: $left_margin_3;
+        width: $width_3;
+    }
+
+    .hr2 {
+        margin-left: $left_margin_3;
+        width: $width_3;
+    }
+
+    .techs {
+        margin-left: $left_margin_3;
+    }
+
+    .hr3 {
+        margin-left: $left_margin_3;
+        width: $width_3;
+    }
+
+    .proj {
+        width: $width_3;
+        margin-left: $left_margin_3;
+    }
+
+    .hr4 {
+        margin-left: $left_margin_3;
+        width: $width_3;
+    }
+
+    .bottombar {
+        width: $width_3;
+        margin-left: $left_margin_3;
+    }
+}
+
+@media (max-width: 65rem) {
+    .topbar {
+        margin-left: $left_margin_4;
+        width: $width_4;
+    }
+
+    .hr1 {
+        margin-left: $left_margin_4;
+        width: $width_4;
+    }
+
+    .title {
+        margin-left: $left_margin_4;
+        width: $width_4;
+    }
+
+    ._title {
+        margin-left: $left_margin_4;
+        width: $width_4;
+    }
+
+    .secondbar .title {
+        margin-left: $left_margin_4;
+        width: $width_4;
+    }
+
+    .hr2 {
+        margin-left: $left_margin_4;
+        width: $width_4;
+    }
+
+    .techs {
+        margin-left: $left_margin_4;
+    }
+
+    .hr3 {
+        margin-left: $left_margin_4;
+        width: $width_4;
+    }
+
+    .proj {
+        width: $width_4;
+        margin-left: $left_margin_4;
+    }
+
+    .hr4 {
+        margin-left: $left_margin_4;
+        width: $width_4;
+    }
+
+    .bottombar {
+        width: $width_4;
+        margin-left: $left_margin_4;
+    }
+}
+
+@media (max-width: 55rem) {
+    
 }
