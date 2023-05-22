@@ -2,8 +2,8 @@ $font: 'Ubuntu Mono', monospace;
 $text_color: chartreuse;
 $shadow: 0 0 1em $text_color, 0 0 0.2em $text_color;
 
-$left_margin_1: 25%;
-$width_1: 50%;
+$left_margin_1: 20%;
+$width_1: 60%;
 
 $left_margin_2: 20%;
 $width_2: 60%;
@@ -40,7 +40,7 @@ body {
 }
 
 .name {
-    height: 50px;
+    // height: 50px;
     line-height: 70px;
     text-align: center;
     font-size: 140%;
@@ -50,13 +50,23 @@ body {
 }
 
 .end {
-    height: 50px;
-    line-height: 75px;
-    text-align: center;
-    font-size: 140%;
-    font-family: $font;
-    color: $text_color;
-    text-shadow: $shadow;
+    line-height: 70px;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.end img {
+    vertical-align: middle;
+    height: 100%;
+    // width: auto;
+    // transform: rotate(deg);
+    // transition: transform 1s ease-in;
+}
+
+.end button {
+    border: none;
+    background: transparent;
+    padding: 0;
 }
 
 .hr1 {
@@ -66,59 +76,49 @@ body {
     border-bottom: 2px white solid;
 }
 
+.secondbar {
+    margin-left: $left_margin_1;
+    width: $width_1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.mypic img {
+    border: solid chartreuse 4px;
+    height: 250px;
+    border-radius: 50%;
+    margin-top: 50px;
+}
+
 .title {
-    margin-top: 30px;
-    margin-left: $left_margin_1;
-    width: $width_1;
+    margin-top: 70px;
     height: 90px;
     display: flex;
     display: flex;
     flex-direction: column;
-    font-size: 400%;
+    font-size: 200%;
 }
 
-._title {
-    margin-top: 30px;
-    margin-left: $left_margin_1;
-    width: $width_1;
-    height: 90px;
-    display: flex;
-    display: flex;
-    flex-direction: column;
-    font-size: 330%;
-}
-
-.secondbar .title {
-    margin-top: 30px;
-    margin-left: $left_margin_1;
-    width: $width_1;
-    height: 90px;
-    display: flex;
-    display: flex;
-    flex-direction: column;
-    font-size: 300%;
-}
-
-.hi {
-    margin-top: 40px;
-}
-
-.this {
+.skills {
+    color: $text_color;
     margin-top: 20px;
+    font-size: 150%;
 }
 
 #jeet {
     margin-top: 20px;
-    font-size: 200%;
-    text-shadow: $shadow;
+    font-size: 210%;
+    // text-shadow: $shadow;
 }
 
-#jeet span {
-    animation-duration: 3s;
-    animation-name: blinker;
-    animation-iteration-count: infinite;
-    animation-timing-function: ease-in;
-}
+
+// #jeet span {
+//     animation-duration: 3s;
+//     animation-name: blinker;
+//     animation-iteration-count: infinite;
+//     animation-timing-function: ease-in;
+// }
 
 #blinkkk {
     animation-duration: 2s;
@@ -138,18 +138,30 @@ a {
 }
 
 .hr2 {
-    margin-left: $left_margin_1;
-    margin-bottom: 70px;
-    margin-top: 230px;
-    width: $width_1;
+    margin-left: 45%;
+    margin-bottom: 50px;
+    margin-top: 0px;
+    width: 10%;
     border-bottom: 2px white solid;
     padding-bottom: 50px;
 }
 
-.secondbar {
+// .secondbar {
+//     display: flex;
+//     flex-direction: row;
+//     justify-content: space-between;
+// }
+
+._title {
+    margin-top: 0px;
+    margin-left: $left_margin_1;
+    width: $width_1;
+    height: 90px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+    font-size: 300%;
+    text-align: center;
 }
 
 .techs {
@@ -163,31 +175,50 @@ a {
 }
 
 .hr3 {
-    margin-left: $left_margin_1;
-    margin-bottom: 70px;
-    margin-top: 20px;
-    width: $width_1;
+    margin-left: 45%;
+    margin-bottom: 40px;
+    margin-top: 0px;
+    width: 10%;
     border-bottom: 2px white solid;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
 }
 
-.proj {
+.works {
     width: $width_1;
     margin-left: $left_margin_1;
-    font-size: 200%;
+    font-size: 400%;
     display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-around;
     text-shadow: $shadow;
 }
 
-.proj div {
-    margin-bottom: 40px;
-}
+// .hr3 {
+//     margin-left: $left_margin_1;
+//     margin-bottom: 70px;
+//     margin-top: 20px;
+//     width: $width_1;
+//     border-bottom: 2px white solid;
+//     padding-bottom: 50px;
+// }
 
-.proj a {
-    text-decoration: underline solid $text_color 2px;
-}
+// .proj {
+//     width: $width_1;
+//     margin-left: $left_margin_1;
+//     font-size: 200%;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: space-between;
+//     text-shadow: $shadow;
+// }
+
+// .proj div {
+//     margin-bottom: 40px;
+// }
+
+// .proj a {
+//     text-decoration: underline solid $text_color 2px;
+// }
 
 .hr4 {
     margin-left: $left_margin_1;
@@ -200,18 +231,18 @@ a {
 
 .bottombar {
     width: $width_1;
-    height: 50px;
-    line-height: 50px;
+    height: 70px;
+    line-height: 70px;
     align-items: center;
     margin-left: $left_margin_1;
-    font-size: 140%;
+    font-size: 180%;
     display: inline-flex;
     justify-content: space-between;
     filter: drop-shadow(0 0 0.2rem $text_color);
 }
 
 span {
-    font-size: 140%;
+    font-size: 150%;
 }
 
 .icons img {
