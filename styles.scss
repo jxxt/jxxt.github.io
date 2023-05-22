@@ -32,8 +32,8 @@ body {
 }
 
 .topbar {
-    margin-left: 25%;
-    width: 50%;
+    margin-left: $left_margin_1;
+    width: $width_1;
     height: 75px;
     display: flex;
     justify-content: space-between;
@@ -60,16 +60,16 @@ body {
 }
 
 .hr1 {
-    margin-left: 25%;
+    margin-left: $left_margin_1;
     margin-bottom: auto;
-    width: 50%;
+    width: $width_1;
     border-bottom: 2px white solid;
 }
 
 .title {
     margin-top: 30px;
-    margin-left: 25%;
-    width: 50%;
+    margin-left: $left_margin_1;
+    width: $width_1;
     height: 90px;
     display: flex;
     display: flex;
@@ -79,8 +79,8 @@ body {
 
 ._title {
     margin-top: 30px;
-    margin-left: 25%;
-    width: 50%;
+    margin-left: $left_margin_1;
+    width: $width_1;
     height: 90px;
     display: flex;
     display: flex;
@@ -90,8 +90,8 @@ body {
 
 .secondbar .title {
     margin-top: 30px;
-    margin-left: 25%;
-    width: 50%;
+    margin-left: $left_margin_1;
+    width: $width_1;
     height: 90px;
     display: flex;
     display: flex;
@@ -138,10 +138,10 @@ a {
 }
 
 .hr2 {
-    margin-left: 25%;
+    margin-left: $left_margin_1;
     margin-bottom: 70px;
     margin-top: 230px;
-    width: 50%;
+    width: $width_1;
     border-bottom: 2px white solid;
     padding-bottom: 50px;
 }
@@ -153,8 +153,8 @@ a {
 }
 
 .techs {
-    width: 50%;
-    margin-left: 25%;
+    width: $width_1;
+    margin-left: $left_margin_1;
     font-size: 200%;
     display: flex;
     flex-direction: row;
@@ -163,17 +163,17 @@ a {
 }
 
 .hr3 {
-    margin-left: 25%;
+    margin-left: $left_margin_1;
     margin-bottom: 70px;
     margin-top: 20px;
-    width: 50%;
+    width: $width_1;
     border-bottom: 2px white solid;
     padding-bottom: 50px;
 }
 
 .proj {
-    width: 50%;
-    margin-left: 25%;
+    width: $width_1;
+    margin-left: $left_margin_1;
     font-size: 200%;
     display: flex;
     flex-direction: column;
@@ -190,20 +190,20 @@ a {
 }
 
 .hr4 {
-    margin-left: 25%;
+    margin-left: $left_margin_1;
     margin-bottom: auto;
     margin-top: -20px;
-    width: 50%;
+    width: $width_1;
     border-bottom: 2px white solid;
     padding-bottom: 50px;
 }
 
 .bottombar {
-    width: 50%;
+    width: $width_1;
     height: 50px;
     line-height: 50px;
     align-items: center;
-    margin-left: 25%;
+    margin-left: $left_margin_1;
     font-size: 140%;
     display: inline-flex;
     justify-content: space-between;
