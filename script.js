@@ -31,3 +31,16 @@ for (let i = 0; i < spans.length; i++) {
         this.classList.remove("blink");
     });
 }
+
+function toggleTheme() {
+    var themeStyle = document.getElementById('theme-style');
+    var themeImage = document.getElementById('theme-image');
+
+    if (themeStyle.getAttribute('href') === 'styles.css') {
+        themeStyle.setAttribute('href', 'styles_light.css');
+        themeImage.setAttribute('src', 'icons/dark.svg');
+    } else {
+        themeStyle.setAttribute('href', 'styles.css');
+        themeImage.setAttribute('src', 'icons/light.svg');
+    }
+}
