@@ -40,7 +40,6 @@ body {
 }
 
 .name {
-    // height: 50px;
     line-height: 70px;
     text-align: center;
     font-size: 140%;
@@ -58,9 +57,6 @@ body {
 .end img {
     vertical-align: middle;
     height: 100%;
-    // width: auto;
-    // transform: rotate(deg);
-    // transition: transform 1s ease-in;
 }
 
 .end button {
@@ -109,16 +105,7 @@ body {
 #jeet {
     margin-top: 20px;
     font-size: 210%;
-    // text-shadow: $shadow;
 }
-
-
-// #jeet span {
-//     animation-duration: 3s;
-//     animation-name: blinker;
-//     animation-iteration-count: infinite;
-//     animation-timing-function: ease-in;
-// }
 
 #blinkkk {
     animation-duration: 2s;
@@ -145,12 +132,6 @@ a {
     border-bottom: 2px white solid;
     padding-bottom: 50px;
 }
-
-// .secondbar {
-//     display: flex;
-//     flex-direction: row;
-//     justify-content: space-between;
-// }
 
 ._title {
     margin-top: 0px;
@@ -192,33 +173,6 @@ a {
     justify-content: space-around;
     text-shadow: $shadow;
 }
-
-// .hr3 {
-//     margin-left: $left_margin_1;
-//     margin-bottom: 70px;
-//     margin-top: 20px;
-//     width: $width_1;
-//     border-bottom: 2px white solid;
-//     padding-bottom: 50px;
-// }
-
-// .proj {
-//     width: $width_1;
-//     margin-left: $left_margin_1;
-//     font-size: 200%;
-//     display: flex;
-//     flex-direction: column;
-//     justify-content: space-between;
-//     text-shadow: $shadow;
-// }
-
-// .proj div {
-//     margin-bottom: 40px;
-// }
-
-// .proj a {
-//     text-decoration: underline solid $text_color 2px;
-// }
 
 .hr4 {
     margin-left: $left_margin_1;
