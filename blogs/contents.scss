@@ -87,8 +87,12 @@ body {
 .contents {
     margin-left: $left_margin_1;
     width: $width_1;
-    margin-top: 40px;
+    margin-top: 60px;
     font-size: 170%;
+
+    p {
+        margin-bottom: 30px;
+    }
 }
 
 .hr4 {

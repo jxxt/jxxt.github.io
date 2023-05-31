@@ -79,8 +79,11 @@ body {
 .contents {
   margin-left: 20%;
   width: 60%;
-  margin-top: 40px;
+  margin-top: 60px;
   font-size: 170%;
+}
+.contents p {
+  margin-bottom: 30px;
 }
 
 .hr4 {
