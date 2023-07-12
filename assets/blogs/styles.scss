@@ -1,0 +1,129 @@
+$font: 'Ubuntu Mono', monospace;
+$text_color: chartreuse;
+$shadow: 0 0 1em $text_color, 0 0 0.2em $text_color;
+
+$left_margin_1: 20%;
+$width_1: 60%;
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: $font;
+    color: $text_color;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background: #000;
+    color: #fff;
+}
+
+.topbar {
+    margin-left: $left_margin_1;
+    width: $width_1;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.start {
+    line-height: 70px;
+    text-align: center;
+    font-size: 140%;
+    font-family: $font;
+    color: $text_color;
+    text-shadow: $shadow;
+}
+
+.end {
+    line-height: 70px;
+    align-items: center;
+    margin-right: 5px;
+}
+
+.end img {
+    vertical-align: middle;
+    height: 100%;
+}
+
+.end button {
+    border: none;
+    background: transparent;
+    padding: 0;
+}
+
+.hr1 {
+    margin-left: $left_margin_1;
+    margin-bottom: auto;
+    width: $width_1;
+    border-bottom: 2px white solid;
+}
+
+.heading {
+    margin-left: $left_margin_1;
+    width: $width_1;
+    margin-top: 50px;
+    font-size: 250%;
+}
+
+.contents {
+    margin-left: $left_margin_1;
+    margin-top: 50px;
+    font-size: 200%;
+    width: $width_1;
+
+    p {
+        i {
+            margin-left: 50px;
+            margin-top: 15px;
+            font-size: 60%;
+            color: rgb(89, 132, 88);
+        }
+    }
+}
+
+.hr4 {
+    margin-left: $left_margin_1;
+    margin-bottom: auto;
+    margin-top: 85px;
+    width: $width_1;
+    border-bottom: 2px white solid;
+    padding-bottom: 50px;
+}
+
+.bottombar {
+    width: $width_1;
+    height: 70px;
+    line-height: 70px;
+    align-items: center;
+    margin-left: $left_margin_1;
+    font-size: 170%;
+    display: inline-flex;
+    justify-content: space-between;
+    filter: drop-shadow(0 0 0.2rem $text_color);
+
+    span {
+        font-size: 120%;
+    }
+}
+
+
+
+.icons img {
+    vertical-align: middle;
+    height: 100%;
+    width: auto;
+    transform: rotate(deg);
+    transition: transform 1s ease-in;
+}
+
+.icons img:hover {
+    transform: rotate(360deg);
+}
