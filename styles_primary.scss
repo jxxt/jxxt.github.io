@@ -1,0 +1,34 @@
+@import "./resets";
+@import "./variables";
+
+body {
+    background-color: $bg;
+    width: 100vw;
+    font-family: "Ubuntu Mono", monospace;
+    color: $font;
+}
+
+.header {
+    width: 100vw;
+    height: 50px;
+    background-color: $temp-bg;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    border-bottom: 2px solid #fff;
+
+    .username {
+        padding-left: 20px;
+    }
+
+    .theme-toggle {
+        padding-right: 20px;
+    }
+
+    .sections {
+        display: flex;
+        gap: 100px;
+    }
+}
