@@ -1,0 +1,64 @@
+* {
+  padding: 0%;
+  margin: 0%;
+}
+
+body {
+  background-color: #000;
+  width: 100%;
+  font-family: "Ubuntu Mono", monospace;
+  color: #7FFF00;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  width: 100%;
+  height: 50px;
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-weight: bold;
+  border-bottom: 2px solid #fff;
+}
+.header .username {
+  padding-left: 20px;
+}
+.header .theme-toggle {
+  padding-right: 20px;
+}
+.header .sections {
+  display: flex;
+  gap: 100px;
+}
+
+.introduction {
+  width: 70%;
+  height: calc(100vh - 52px);
+  background-color: #3f3c3c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+}
+.introduction .prof-pic {
+  padding-top: 40px;
+}
+.introduction .prof-pic img {
+  border: 2px solid #7FFF00;
+  border-radius: 50%;
+}
+.introduction .hi {
+  font-size: 35px;
+}
+.introduction .name {
+  font-size: 55px;
+  font-weight: bold;
+}
+.introduction .role {
+  font-size: 45px;
+}
+
+/*# sourceMappingURL=styles_primary.css.map */

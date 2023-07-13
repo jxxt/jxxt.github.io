@@ -1,6 +1,6 @@
 .vscode
 
-*.css
+# *.css
 *.css.map
 
 node_modules
