@@ -1,10 +1,9 @@
 .vscode
 
-script.js
-
 styles_primary.css
 styles_primary.css.map
 
 contents.css.map
 
-# ./node_modules/
+node_modules
+package-lock.json
