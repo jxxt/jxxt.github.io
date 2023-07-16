@@ -22,6 +22,7 @@ body {
     font-weight: bold;
     border-bottom: 2px solid #fff;
     // position: fixed;
+    filter: drop-shadow(0 0 0.05rem chartreuse);
 
     .username {
         padding-left: 22px;
@@ -169,7 +170,7 @@ body {
 }
 
 a {
-    color: #fff;
+    color: blue;
 }
 
 .blogs {
@@ -191,5 +192,38 @@ a {
     .recent-heading,
     .recent-ending {
         font-size: 22px;
+    }
+}
+
+.footer {
+    width: 100%;
+    height: 63px;
+    // background-color: $temp-bg;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-weight: bold;
+    border-top: 2px solid #fff;
+    filter: drop-shadow(0 0 0.05rem chartreuse);
+
+    .copyright span {
+        font-size: 32px;
+    }
+
+    .copyright {
+        padding-left: 22px;
+    }
+
+    .icons {
+        padding-right: 22px;
+    }
+
+    .icons img {
+        transition: transform 0.1s ease-in;
+    }
+
+    .icons img:hover {
+        transform: rotate(20deg);
     }
 }
